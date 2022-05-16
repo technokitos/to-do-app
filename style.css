@@ -1,0 +1,49 @@
+header {
+    background-color: lightblue;
+    text-align: center;
+    overflow: auto;
+}
+
+header .row {
+    overflow: hidden;
+    min-height: 60px;
+}
+
+header h1 {
+    font-size: 30px;
+    text-align: left;
+    padding-top: 7px;
+}
+
+@media(max-width:978px) {
+    header h1 {
+        font-size: 15px;
+        text-align: center;
+        padding-top: 1px;
+    }
+}
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 60px;
+    position: absolute;
+}
+
+.table td,
+.table td button {
+    font-size: 14px;
+}
